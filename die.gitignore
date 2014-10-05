@@ -1,0 +1,26 @@
+class Die
+
+
+  random = rand(1..4)
+
+  def print
+
+    puts "#{@random}"
+
+  end
+
+  if random == 1
+    puts "north"
+
+    elsif random == 2
+    puts "south"
+
+  elsif random == 3
+    puts "east"
+
+  else random == 4
+    puts "west"
+
+  end
+
+    end
